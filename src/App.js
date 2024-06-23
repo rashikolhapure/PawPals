@@ -4,6 +4,7 @@ import Home from './routes/Home.jsx';
 import About from './routes/About.jsx';
 import Contact from './routes/Contact.jsx';
 import Navbar from './components/Navbar.jsx';
+import Match from './routes/Match.jsx';
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path='/' element={<Home/>}/>
         <Route path='/about' element={<About/>}/>
         <Route path='/contact' element={<Contact/>}/>
+        <Route path='/match' element={<Match/>}/>
       </Routes>
       </BrowserRouter>
     </div>
